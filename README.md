@@ -5,7 +5,6 @@
 About the Data :
 The dataset The goal is to predict math score of given student (Regression Analysis).
 
-There are 10 independent variables (including id):
 
 Columns:
 
@@ -39,10 +38,10 @@ Target variable
 
 3- Model Training :
 
-* In this phase base model is tested . The best model found was catboost regressor.
-* After this hyperparameter tuning is performed on catboost and knn model.
-* A final VotingRegressor is created which will combine prediction of catboost, xgboost and knn models.
-* This model is saved as pickle file.
+* In this phase various models was tested.
+* ![image](https://user-images.githubusercontent.com/39285876/234408455-f2be0c51-a50e-4393-97dd-a4c58f6e715a.png)
+* After this hyperparameter tuning is performed.
+* A final model was saved as pickle file.
 
 4- Prediction Pipeline :
 

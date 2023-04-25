@@ -1,6 +1,6 @@
 
 # Student performance prediction
-** the main idea of the project to demonstrate the idea of from datascience idea to production 
+### the main idea of the project to demonstrate the idea of from datascience idea to production 
 
 About the Data :
 The dataset The goal is to predict math score of given student (Regression Analysis).
